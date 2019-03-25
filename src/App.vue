@@ -17,6 +17,17 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less">
+  .swiper-pagination-bullets {
+      .swiper-pagination-bullet {
+         width: 16px;height: 16px;background: #fff;
+      }
+    }
+    .swiper-container-horizontal {
+      .swiper-pagination-bullets {
+        .swiper-pagination-bullet {
+          margin-top: 11px;margin-right: 15px;
+        }
+      }
+    }
 </style>
